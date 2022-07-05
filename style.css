@@ -32,7 +32,6 @@ h1 {
 .half-width {
   width: 50%;
   height: 100%;
-  /* border: 1px solid black; */
 }
 
 section {
@@ -57,22 +56,15 @@ section {
   margin-top: 5px;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  border: 1px solid black;
-}
-
 /* Common Styling End */
 
 /* Hero Section Styling Start */
-
-.hero .image {
+.hero {
   display: flex;
-  background-image: url("images/shapes/image.png");
+}
+.hero .image {
+  background-image: url(images/male/hero2.png);
   background-repeat: no-repeat;
-  background-position: center;
   background-size: 70%;
 }
 
@@ -113,12 +105,19 @@ section {
 
 /* Recipies Section Styling Start */
 
+.recipies {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
 .recipies .half-width {
-  padding: 10px;
+  padding: 20px;
   width: 500px;
+  height: 500px;
   margin: auto;
   box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.137);
-  border-radius: 5px;
+  border-radius: 15px;
 }
 .recipies .half-width img {
   width: 100%;
@@ -135,4 +134,27 @@ section {
 
 /* Follower Section Styling Start */
 
-/* Follower Section Styling Start */
+.follower {
+  display: flex;
+  justify-content: space-evenly;
+  width: 82%;
+  height: 130px;
+  margin: 75px auto;
+  padding-top: 20px;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.137);
+  border-radius: 15px;
+}
+
+/* Follower Section Styling End */
+
+/* Footer Styling Start */
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+  padding: 20px;
+}
+
+/* Footer Styling End */
