@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Common Styling Start */
+p {
+  line-height: 150%;
+  letter-spacing: 0.12%;
+  word-spacing: 0.15%;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.highlight {
+  color: orange;
+}
+
+.h-600 {
+  height: 600px;
+}
+
+.half-width {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+section {
+  overflow: hidden;
+}
+
+.half-width img {
+  width: 50%;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.link-btn {
+  display: inline-block;
+  color: white;
+  padding: 8px 15px;
+  background-image: linear-gradient(to right, orange, #ff1e1e);
+  font-weight: 500;
+  border-radius: 22px;
+  margin-top: 5px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  border: 1px solid black;
+}
+
+/* Common Styling End */
+
+/* Hero Section Styling Start */
+
+.hero .image {
+  display: flex;
+  background-image: url("images/shapes/image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.hero .text {
+  margin: 140px 0 0 75px;
+}
+
+/* Hero Section Styling End */
+
+/* About Section Styling Start */
+
+.about {
+  display: flex;
+  background-image: url("images/shapes/7.png");
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+}
+
+.about img {
+  margin: 67px 0 0 160px;
+}
+
+.about .text {
+  margin: 140px 100px 0 75px;
+}
+
+/* About Section Styling End */
+
+/* Recipie Section Styling Start */
+
+.recipie {
+  height: 175px;
+  padding: 50px 27% 0;
+  text-align: center;
+}
+
+/* Recipie Section Styling End */
+
+/* Recipies Section Styling Start */
+
+.recipies .half-width {
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.137);
+  border-radius: 5px;
+}
+.recipies .half-width img {
+  width: 100%;
+  height: 300px;
+}
+.recipies .left {
+  margin-right: 15px;
+}
+.recipies .right {
+  margin-left: 15px;
+}
+
+/* Recipies Section Styling End */
+
+/* Follower Section Styling Start */
+
+/* Follower Section Styling Start */
